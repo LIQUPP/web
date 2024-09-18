@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #1A242F;
+    color: #F7CA18;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #F39C12;
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: #16222A;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #F39C12;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ECF0F1;
+}
+
+/* Estilos del contenedor */
+.container {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #22313F;
+    border: 1px solid #F39C12;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos de los títulos */
+h1, h2, h3 {
+    color: #F7CA18;
+}
+
+/* Estilos de listas */
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+/* Estilos para centrar imágenes */
+.image-center {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Tamaño de las imágenes pequeñas */
+.image-small {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #1A242F;
+    color: #F7CA18;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #F39C12;
+}
